@@ -1,0 +1,52 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+h2{
+    font-size: 10px;
+}
+.container {
+    width: 50%;
+    max-width: 200px;
+    text-align: center;
+    background-color: #fff;
+    height: 100px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 6px;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allows the items to wrap within the container */
+    justify-content: center; /* Centers the items within the container */
+    gap: 4px; /* Adds spacing between items */
+}
+
+li {
+    padding: 4px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    font-size: 6px; /* Smaller font to fit more items in a row */
+    flex: 1 0 30%; /* Flex properties to make items flexible within the row */
+    max-width: 30%; /* Ensures items don't exceed a certain width */
+    text-align: center; /* Centers text within each item */
+    white-space: nowrap; /* Prevents text from wrapping inside the items */
+}
