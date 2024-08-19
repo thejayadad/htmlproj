@@ -3,19 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Searchable List</title>
+    <title>Background Color Changer</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h2>Item List</h2>
-        <input type="text" id="searchInput" placeholder="Search Items...">
-        <ul id="itemList">
-            <li>Apple</li>
-            <li>Banana</li>
-            <li>Cherry</li>
-            <li>Grapes</li>
-        </ul>
+        <button id="colorButton">Change Background Color</button>
+        <p id="colorCode" onclick="copyColorCode()">Click to Copy Color Code</p>
     </div>
     <script src="main.js"></script>
 </body>

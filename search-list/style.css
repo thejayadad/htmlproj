@@ -10,7 +10,7 @@ body, html {
 h2{
     font-size: 10px;
 }
-.container {
+.container{
     width: 50%;
     max-width: 200px;
     text-align: center;
@@ -19,8 +19,7 @@ h2{
     padding: 20px;
     border-radius: 8px;
 }
-
-input {
+input{
     width: 80%;
     padding: 5px;
     margin-bottom: 10px;
@@ -29,24 +28,22 @@ input {
     font-size: 6px;
     outline: none;
 }
-
-ul {
-    list-style-type: none;
+ul{
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
-    flex-wrap: wrap; /* Allows the items to wrap within the container */
-    justify-content: center; /* Centers the items within the container */
-    gap: 4px; /* Adds spacing between items */
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
 }
-
-li {
+li{
     padding: 4px;
     background-color: #f4f4f4;
     border-radius: 4px;
-    font-size: 6px; /* Smaller font to fit more items in a row */
-    flex: 1 0 30%; /* Flex properties to make items flexible within the row */
-    max-width: 30%; /* Ensures items don't exceed a certain width */
-    text-align: center; /* Centers text within each item */
-    white-space: nowrap; /* Prevents text from wrapping inside the items */
+    font-size: 6px;
+    flex: 1 0 30%;
+    max-width: 30%;
+    text-align: center;
+    white-space: nowarp;
 }

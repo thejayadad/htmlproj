@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s ease;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: .5rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#colorCode {
+    margin-top: 5px;
+    font-size: .6rem;
+    color: #333;
+    cursor: pointer;
+    user-select: none;
+}
+
+#colorCode:hover {
+    color: #555;
+}
