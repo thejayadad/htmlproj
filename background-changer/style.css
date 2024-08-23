@@ -12,7 +12,7 @@ body, html {
     text-align: center;
 }
 
-button {
+button{
     padding: 5px 10px;
     border: none;
     background-color: orange;
@@ -20,21 +20,18 @@ button {
     cursor: pointer;
     border-radius: 4px;
     font-size: .5rem;
-    transition: background-color 0.3s ease;
+    transition: background-color .3s ease;
 }
-
-button:hover {
+button:hover{
     background-color: orangered;
 }
-
-#colorCode {
+#colorCode{
     margin-top: 5px;
     font-size: .6rem;
-    color: #333;
+    color: #222;
     cursor: pointer;
     user-select: none;
 }
-
-#colorCode:hover {
+#colorCode:hover{
     color: #555;
 }

@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Color Changer</title>
+    <title>Password Strength Checker</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <button id="colorButton">Change Background Color</button>
-        <p id="colorCode" onclick="copyColorCode()">Click To Copy Color</p>
+        <h2>Password Strength Checker</h2>
+        <input type="password" id="passwordInput" placeholder="Enter your password">
+        <p id="strengthText">Strength: <span id="strengthValue">Too Weak</span></p>
     </div>
     <script src="main.js"></script>
 </body>
