@@ -1,7 +1,7 @@
 const images = [
-    'https://via.placeholder.com/300x250/FF5733',
-    'https://via.placeholder.com/300x250/33FF57',
-    'https://via.placeholder.com/300x250/3357FF',
+    'https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    'https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
 ];
 
 let currentIndex = 0;
