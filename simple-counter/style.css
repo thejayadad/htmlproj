@@ -7,22 +7,22 @@ body {
     margin: 0;
     background-color: #f0f0f0;
 }
-.counter-container {
+.counter-container{
     text-align: center;
     background: #fff;
     padding: 20px;
     border-radius: 10px;
 }
-.counter {
+.counter{
     font-size: 15px;
     margin-bottom: 5px;
 }
-.buttons {
-    display: flex;
+.buttons{
+    display:flex;
     justify-content: space-between;
-    gap: 4px
+    gap: 4px;
 }
-button {
+button{
     padding: 2px 5px;
     font-size: 15px;
     border: none;
@@ -31,6 +31,6 @@ button {
     background-color: orange;
     color: white;
 }
-button:hover {
+button:hover{
     background-color: orangered;
 }
