@@ -11,26 +11,23 @@ h2{
     font-size: 10px;
 }
 
-.container {
+.container{
     width: 150px;
     text-align: center;
     background-color: #fff;
     padding: 5px;
     border-radius: 8px;
 }
-
-.input-group {
+.input-group{
     margin-bottom: 15px;
 }
-
-label {
+label{
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
     font-size: 6px;
 }
-
-input[type="number"] {
+input{
     width: 80%;
     padding: 5px;
     border: 1px solid #ccc;
@@ -38,22 +35,17 @@ input[type="number"] {
     font-size: 8px;
     text-align: center;
 }
-
-button {
+button{
     padding: 5px 7px;
     border: none;
     background-color: #3498db;
-    color: #fff;
-    cursor: pointer;
+    color: white;
     border-radius: 4px;
-    margin-top: 2px;
     font-size: 6px;
 }
-
-button:hover {
+button:hover{
     background-color: #2980b9;
 }
-
-p {
+p{
     font-size: 6px;
 }
