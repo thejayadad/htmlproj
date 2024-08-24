@@ -4,18 +4,16 @@ body{
     align-items: center;
     height: 100vh;
 }
-.calculator-container {
+.calculator-container{
+    background-color: #f0f0f0;
     width: 200px;
     height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     padding: 10px;
     border-radius: 8px;
-    
 }
 input, button {
     margin: 5px 0;
@@ -27,16 +25,16 @@ input, button {
     outline: none;
 }
 button {
-    border: none;
+    border:none;
     cursor: pointer;
     background-color: #c046ed;
     color: white;
     font-family: monospace;
 }
-button:hover {
+button:hover{
     background-color: #320c3f;
 }
-.result {
+.result{
     margin-top: 5px;
     font-size: 8px;
 }

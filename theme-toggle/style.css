@@ -1,0 +1,30 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h2{
+    font-family: monospace;
+}
+.toggle-container {
+    text-align: center;
+}
+button {
+    padding: 5px 10px;
+    font-size: 9px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    transition: background-color 0.3s;
+    font-family: monospace;
+    
+}
+button:hover {
+    background-color: #222;
+}
