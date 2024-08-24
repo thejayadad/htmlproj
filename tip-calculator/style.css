@@ -5,7 +5,7 @@ body{
     height: 100vh;
 }
 .calculator-container {
-    width: 100px;
+    width: 200px;
     height: 100px;
     display: flex;
     flex-direction: column;
