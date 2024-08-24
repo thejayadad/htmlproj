@@ -5,19 +5,14 @@ const images = [
 ];
 
 let currentIndex = 0;
-const sliderContainer = document.getElementById('slider');
-const nextButton = document.getElementById('next-btn');
+const sliderContainer = document.getElementById('slider')
+const nextButton = document.getElementById('next-btn')
 
-function changeBackgroundImage() {
+function changeBackgroundImage(){
     sliderContainer.style.backgroundImage = `url(${images[currentIndex]})`;
-    currentIndex = (currentIndex + 1) % images.length;
+    currentIndex = (currentIndex + +1) % images.length;
 }
+setInterval(changeBackgroundImage,5000)
+nextButton.addEventListener('click', changeBackgroundImage)
 
-// Change image every 5 seconds
-setInterval(changeBackgroundImage, 5000);
-
-// Change image on button click
-nextButton.addEventListener('click', changeBackgroundImage);
-
-// Initial background image
-changeBackgroundImage();
+changeBackgroundImage()
